@@ -3,6 +3,8 @@
 <head>
 	<!-- Document responsive across devices. -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<!-- Document's character set. -->
     <meta charset="UTF-8">
 	<title>My Portfolio</title>
@@ -14,17 +16,17 @@
 </head>
 <body>
 		
-	<div class="header-container">
-		<header>Meggin Kearney</header>
-
-		<nav>
-			<ul>
-				<li class="border"><a href="index.html">About</a></li>
-				<li class="border"><a href="portfolio.html">Portfolio</a></li>
-				<li><a href="contact.html">Contact</a></li>
-			</ul>
-		</nav>
-	</div>
+	<div class="container">
+      <div class="header clearfix">
+        <nav>
+          <ul class="nav nav-pills pull-right">
+            <li role="presentation" class="index.html"><a href="#">About</a></li>
+            <li role="presentation"><a href="portfolio.html">Portfolio</a></li>
+            <li role="presentation"><a href="active">Contact</a></li>
+          </ul>
+        </nav>
+        <h3 class="text-muted">Meggin Kearney</h3>
+      </div>	
 	
 	<div class="main-container">
 		<section id="contact-form">
@@ -52,5 +54,10 @@
 	</div>
 
 	<footer>&#64; Copyright 2017 Meggin Kearney</footer>
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>
