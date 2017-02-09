@@ -1,3 +1,17 @@
+h1,
+h2,
+h3 {
+	color: #4aaaa5;
+}
+
+button.navbar-toggle {
+	background-color: white;
+}
+
+label {
+	color: #555;
+}
+
 .icon {
 	width: 60px;
 	height: auto;
@@ -92,12 +106,6 @@
 	background-color: #777;
 }
 
-h1,
-h2,
-h3 {
-	color: #4aaaa5;
-}
-
 .panel-title {
 	color: #4aaaa5;
 }
@@ -106,16 +114,8 @@ h3 {
 	color: blue;
 }
 
-button.navbar-toggle {
-	background-color: white;
-}
-
 .img-thumbnail {
 	margin-bottom: 15px;
-}
-
-label {
-	color: #555;
 }
 
 .btn-default {
